@@ -1,0 +1,44 @@
+body {
+	
+}
+
+
+h1{
+	text-align: center;
+	color: red;
+	font-size: 60px;
+}
+
+h2{
+	text-align: center;
+	color: red;
+	font-size: 40px;
+}
+
+p{
+	text-align: center;
+	
+}
+
+.agitated{
+			align="right";
+            animation: moving 1s alternate infinite;
+            -webkit-animation: moving 1s alternate infinite;
+}
+@keyframes moving{
+            from {
+				transform: rotate(-15deg);
+            }
+            to {
+                transform: rotate(15deg);
+            }
+}
+@-webkit-keyframes moving {
+            from {
+				-webkit-transform: rotate(-15deg);
+            }
+            to {
+                 -webkit-transform: rotate(15deg);
+            }
+}
+
